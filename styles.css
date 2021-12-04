@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+section {
+    padding: 50px 0;
+  }
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.logo h1{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 60px;
+    color:  lightseagreen;
+    margin: 0;
+}
+
+
+nav {
+    justify-content: space-between;
+    padding: 1% 5%;
+    display: flex;
+}
+
+nav ion-icon {
+  display: none;
+  color:#FAF9F6;
+}
+
+  ion-icon {
+    margin-top: 16px;
+    font-size: 40px;
+  }
+
+ul{
+    list-style: none;
+    margin: 6px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2.6rem;
+    color:#FAF9F6;
+}
+
+.text-box {
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 160px;
+}
+
+.text-box h1 {
+    font-size: 65px;
+    font-weight: 200;
+    margin-top: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.box1 {
+  font-weight: 20px;
+  font-size: 25px;
+  color:  #FAF9F6;
+}
+
+.box2 {
+  font-size: 20px;
+  margin-top: 80px;
+  color: #666;
+}
+
+.box3 {
+  font-size: 20px;
+  margin-top: 5px;
+  color: lightseagreen;
+}
+
+.auto-input {
+    font-size: 55px;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color:  lightseagreen;
+    transition: .5s ease-in-out;
+}
+
+header {
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0,0.9), rgba(0,0,0,0.6)), url("images/church3.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    overflow: hidden;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+  }
+
+ .church-services h1,h2 {
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 20px;
+ } 
+
+ .church-services p{
+     font-size: 17px;
+     font-weight: 10px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: gray;
+ }
+
+ .service1 h2 {
+     margin-bottom: 45px;
+ }
+ .service3 h2 {
+    margin-bottom: 65px;
+}
+
+ .service1,
+ .service2,
+ .service3 {
+    flex-basis: 30%;
+    padding: 1.6rem;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px 5px 8px black;
+ }
+
+ .service1 h2,
+ .service2 h2,
+ .service3 h2 {
+     color: rgb(106, 90, 205);
+ }
+
+ .btn {
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .btn:hover {
+    background-color: transparent;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+    transition: .5s ease-in-out;
+  }
+
+  .gal {
+      background-color: #222;
+  }
+
+  .gallary {
+      width: 80;
+      margin: 10px auto;
+      padding-bottom: 60px;
+  }
+
+  .gallary h1 {
+      padding: 60px 0;
+      color: #fff;
+      font-size: 44px;
+      text-align: center;
+      font-family: "Zen Antique Soft", sans-serif;
+  }
+
+  .row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; 
+  }
+
+  .col {
+      flex-basis: 50%;
+      min-width: 250px;
+  }
+
+  .cole {
+    flex-basis: 50%;
+    min-width: 250px;
+}
+
+  .feature-img {
+      width: 83%;
+      margin: auto;
+      position: relative;
+      border-radius: 6px;
+      overflow: hidden;
+  }
+
+  .feature-img p,
+  .feature-img .ctn {
+    display: none;
+  }
+
+  .small-img-row {
+      display: flex;
+      background: #efefef;
+      margin: 20px 0;
+      align-items: center;
+      border-radius: 6px;
+      overflow: hidden;
+      width: 85%;
+      height: 80px;
+  }
+
+  .small-img {
+      position: relative;
+  }
+
+  .small-img img {
+      width: 150px;
+  }
+
+  .small-img-row p {
+      margin-left: 20px;
+      color: #707070;
+      line-height: 22px;
+      font-size: 12px;
+  }
+
+  .play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,200%);
+    cursor: pointer;
+}
+
+.small-img .play-btn2 {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,90%);
+    cursor: pointer;
+    width: 35px;
+}
+
+.small-img ion-icon {
+    display: none;
+}
+
+.video-player {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-350%);
+    display: none;
+    height: 170px;
+}
+
+video:focus{
+    outline: none;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.small-img-row .ctn {
+    display: none;
+}
+
+
+.contact-form {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+input {
+  font-size: 1.8rem;
+}
+
+input[type=submit]{
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 0px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: transparent;
+  border: 1px solid #4caf50;
+  color: #4caf50;
+  transition: .5s ease-in-out;
+}
+.contact-form-txt::placeholder,
+.contact-form-txtarea::placeholder {
+  font-size: 1.3rem;
+  color: #aaa;
+}
+  .contact-in {
+      width: 80%;
+      height: auto;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 10px 0px #666;
+  }
+
+  .contct-map{
+      width: 100%;
+      height: auto;
+      flex: 50%;
+  }
+
+  .contct-map iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-form h1 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+
+  .contact-form-txt {
+      width: 100%;
+      height: 40px;
+      color: #000;
+      border: 1px solid #bcbcbc;
+      border-radius: 60px;
+      outline: none;
+      margin-bottom: 20px;
+      padding: 15px;
+  }
+
+  .contact-form-txtarea {
+    width: 100%;
+    height: 130px;
+    color: #000;
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 13px;
+  }
+    
+
+  .contact form input {
+    width: 50%;
+  }
+
+  .contact textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    font-size: 10px;
+    resize: none;
+    color: #ccc;
+    margin: 1.2rem;
+    font-family: "poppins", sans-serif;
+  }
+
+ /*about secttion*/
+  
+.header2 {
+  height: 70vh;
+  background: linear-gradient(rgb(0,0,0,0.9), rgba(0,0,0,0.6)), url("images/church.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+
+.aboutus h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: "poppins", sans-serif;
+  color: #FAF9F6;
+  margin-top: 80px;
+}
+
+.about-us1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  margin: 0 40px;
+}
+
+.about-us2 {
+  padding-left: 100px;
+  flex-basis: 50%;
+}
+.about-us2 h2 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 300;
+  color: rgb(106, 90, 205);
+  margin-top: 100px;
+}
+
+.about-us2 p {
+  font-size: 16px;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+.about-img {
+  width: 50%;
+  margin: auto;
+  position: relative;
+  height: 120%;
+}
+
+.abu-btn {
+  margin-top: 60px; 
+}
+
+.abou-btn {
+  width: 70%;
+  background-color: rgb(106, 90, 205);
+  border-radius: 50px;
+  height: 70px;
+  text-decoration: none;
+  padding: 20px 120px;
+}
+
+.abou-btn:hover {
+  background-color: transparent;
+  color: rgb(106, 90, 205);
+  border: 1px solid rgb(106, 90, 205);
+  transition: .5s ease-in-out
+}
+
+.footer {
+  background-color: #222;
+  height: 200px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 60px;
+  color: #FAF9F6;
+}
+
+.foticon {
+  text-align:center;
+  width:100%;
+  margin-top: 20px;
+  color: #aaa;
+} 
+
+.foticon ion-icon {
+  font-size: 17px;
+  margin-left: 60px;
+}
+
+.foticon ion-icon:hover {
+  color: lightseagreen;
+  transition: .5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and  (min-width: 338px) and (max-width: 450px) {
+
+    .row {
+      flex-direction: column;
+    }
+     nav {
+       flex-direction: column;
+       position: relative;
+     }
+
+     nav ion-icon {
+       display: block;
+       position: absolute;
+       top: 18px;
+       right: 32px;
+     }
+
+     nav ul {
+       background-color: whitesmoke;
+       display: none;
+     }
+
+     .showmenu {
+       display: block;
+     }
+
+     nav ul li {
+       display: block;
+       padding: 2% 0;
+       border-bottom: 1px solid black;
+     }
+
+     nav ul li a {
+       color: #222;
+     }
+
+
+    .feature-img {
+      position: relative;
+    }
+
+     .service1,
+     .service2,
+     .service3 {
+         margin-bottom: 8px;
+         box-shadow: none;
+     }
+    
+
+     .small-img-row p {
+         position: absolute;
+         color: #fff;
+         font-size: 15px;
+         text-align: center;
+     }
+
+     .feature-img p {
+       display: block;
+      position: absolute;
+      color: #fff;
+      font-size: 15px;
+      text-align: center;
+      top: 78px;
+     }
+
+     .small-img img {
+        width: 350px;
+        height: 300px;
+    }
+     
+     #small-img-low1,
+     #small-img-low2,
+     .feature-img {
+        width: 270px;
+        margin: 12px 12px;
+        position: relative;
+        overflow: hidden;
+        height: 250px;     
+     }
+
+     .feature-img img {
+       height: 250px;
+       overflow: hidden;
+     }
+
+     #small-img-low3 {
+         display: none;
+     }
+
+     .play-btn{
+       display: none;
+        width: 60px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,160%);
+        color: rgb(106, 90, 205);
+        cursor: pointer;
+    }
+
+    .small-img-row {
+        position: relative;
+    }
+
+
+
+    .small-img .play-btn2 {
+        display: none;
+    }
+
+    .video-player {
+        height: 180px;
+        background-color: rgba(black, 0.5);
+    }
+
+
+    .small-img-row .ctn,
+    .feature-img .ctn {
+        position: absolute;
+        right: 100px;
+        top: 180px;
+        display: block;
+        background-color: rgb(106, 90, 205);
+        color: #fff;
+        font-size: 25px;
+        padding: 4px 8px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 14px;
+        margin-bottom: 2px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+       }
+
+       .logo h1 {
+           font-size: 40px;
+           margin-top: 20px;
+       }
+       .text-box {
+         display: block;
+        margin-top: 70px;
+        font-size: 60px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .text-box h1{
+        font-size:35px;
+        margin-top: 30px;
+    }
+    
+    .text-box p {
+      font-size:25px;
+  }
+
+  .video-player {
+    width: 90%;
+  }
+
+  .aboutus h1 {
+    margin-top: 130px;
+  }
+
+  .about-us1 {
+    flex-direction: column;
+  }
+
+  .about-us2 {
+  order: 2;
+  padding-left: 20px;
+  }
+
+  .about-us2 h2 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(106, 90, 205);
+    margin-top: 20px;
+  }
+  
+  .about-us2 p {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 20px;
+  }
+  
+  .about-img {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 120%;
+  }
+
+  .foticon {
+    text-align:center;
+    width:100%;
+    margin-top: 10px;
+  }
+
+  .foticon ion-icon {
+    margin-left: 12px;
+    font-size: 35px;
+  }
+
+
+  .box2 {
+    font-size: 3px;
+    margin-top: 32px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .row {
+        flex-direction: column;
+      }
+       nav {
+         flex-direction: column;
+         position: relative;
+       }
+  
+       nav ion-icon {
+         display: block;
+         position: absolute;
+         top: 18px;
+         right: 32px;
+       }
+  
+       nav ul {
+         background-color: whitesmoke;
+         display: none;
+       }
+  
+       .showmenu {
+         display: block;
+       }
+  
+       nav ul li {
+         display: block;
+         padding: 2% 0;
+         border-bottom: 1px solid black;
+       }
+  
+       nav ul li a {
+         color: #222;
+       }
+
+       .service1,
+       .service2,
+       .service3 {
+           margin-bottom: 8px;
+           box-shadow: none;
+       }
+
+
+      .play-btn{
+        width: 60px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,160%);
+        cursor: pointer;
+    }
+
+    .cole {
+      margin-left: 73px;
+    }
+
+    .text-box {
+      margin-top: 200px;
+    }
+
+    .text-box h1 {
+      white-space: nowrap;
+      font-size: 60px;
+      margin-top: 40px;
+    }
+
+    .aboutus h1 {
+      margin-top: 100px;
+    }
+
+    .about-us1 {
+      flex-direction: column;
+    }
+
+    .about-us2 {
+    order: 2;
+    padding-left: 20px;
+    }
+  
+    .about-us2 h2 {
+      text-align: left;
+      font-size: 55px;
+      font-weight: 300;
+      color: rgb(106, 90, 205);
+      margin-top: 20px;
+    }
+    
+    .about-us2 p {
+      font-size: 19px;
+      color: #aaa;
+      margin-top: 20px;
+    }
+    
+    .about-img {
+      width: 100%;
+      margin: auto;
+      position: relative;
+      height: 120%;
+    }
+
+    .abou-btn {
+      padding: 20px 250px;
+    }
+
+    .foticon {
+      text-align:center;
+      width:100%;
+    }
+  
+    .foticon ion-icon {
+      margin-left: 25px;
+      font-size: 35px;
+    }
+  
+
+ 
+}
+
