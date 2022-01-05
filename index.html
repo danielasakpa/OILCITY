@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oilcity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="logo">
+               <h1>OILCITY</h1>
+           </div>
+           <ul class="nav-links">
+               <li><a href='index.html'>Home</li>
+               <li><a href="whoweare.html">Who We Are</a></li>
+               <li><a href="#gallary1">Gallary</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="#contact">Contact Us</a></li>
+           </ul>
+           <ion-icon name="md-menu" id="menu"></ion-icon>
+        </nav>
+       <div class="text-box">
+            <p class="box1">WELCOME TO</p>
+           <h1>OIL CITY CHURCH OF GOD</h1>
+           <p class="box2">Holy ghost anointed ministry</p>
+           <p class="box3">we believe in a GOD who loves YOU and has incredible plans for you!</p>
+       </div>
+    </header>
+
+    <!--church service-->
+    <section>
+     <div class="church-services">
+        <h1>SERVICE</h1>
+        <div class="row">
+            <div class="service1">
+                <h2>Zoom Podcasts</h2>
+                <p>Click Here to Listen to the  twwwf wtwrhbdg  gf fdb  bhgbrtgafsd Latest Sermons From  on all digital Platforms</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+            <div class="service2">
+                <h2>weekly service</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit corporis soluta ex asperiores dolore tenetur </p>
+                    <a href="" class="btn">Read More</a>
+            </div>
+            <div class="service3">
+                <h2>Testimony</h2>
+                <p>To share the testimony of what God did for you during any of our programs, kindly click here so it can be add it</p>
+                    <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Gallary-->
+    <section id="gallary1">
+        <div class="gal">
+           <div class="gallary">
+               <h1>CHURCH GALLARY</h1>
+               <div class="row">
+                   <div class="col">
+                       <div class="feature-img">
+                         <img src="images/pic1.png" width="100%"> 
+                         <img src="images/play.png" class="play-btn"  onclick="playVideo('images/vic.mp4')"> 
+                         <div  onclick="playVideo('images/vic2.mp4')">
+                            <button class="ctn">PLAY</button> 
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, animi nesciunt<br> nulla ipsa fugit distinctio sed d</p>
+                        </div>
+                   </div>
+                  <div class="cole">
+                       <div class="small-img-row" id="small-img-low1">
+                           <div class="small-img">
+                            <img src="images/pic2.png" > 
+                            <img src="images/play.png" class="play-btn2" onclick="playVideo('images/vic2.mp4')">
+                        </div>
+                        <div  onclick="playVideo('images/vic2.mp4')">
+                            <button class="ctn">PLAY</button> 
+                        </div>
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, animi nesciunt<br> nulla ipsa fugit distinctio sed d</p>
+                       </div>
+                    <div class="small-img-row" id="small-img-low2">
+                        <div class="small-img">
+                            <img src="images/pic3.png" > 
+                            <img src="images/play.png" class="play-btn2"  onclick="playVideo('images/vic.mp4')"> 
+                        </div>
+                        <div  onclick="playVideo('images/vic.mp4')">
+                            <button class="ctn">PLAY</button> 
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, animi nesciunt<br> nulla ipsa fugit distinctio sed d</p>
+                    </div>
+                    <div class="small-img-row" id="small-img-low3">
+                        <div class="small-img">
+                            <img src="images/pic4.png" > 
+                            <img src="images/play.png" class="play-btn2" onclick="playVideo('images/vic.mp4')"> 
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, animi nesciunt<br> nulla ipsa fugit distinctio sed d</p>
+                    </div>
+                 </div>
+               </div>
+            </div> 
+        </div>
+
+        <div class="video-player" id="videoPlayer">
+            <video width="100%" controls autoplay id="myVideo">
+                <source src="images/vic.mp4" type="video/mp4">
+            </video>
+            <img src="images/close.png" class="close-btn" onclick="stopVideo()">
+        </div>
+
+    </section>
+
+        <!--contect-->
+    <section id="contact">
+        <div class="contact-in">
+            <div class="contct-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.309389688084!2d-0.2405995107296447!3d5.633485714862432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf99460e018927%3A0xdd31661c4f22f1c1!2sWest%20African%20Decor%20Tiles!5e1!3m2!1sen!2sgh!4v1637426310517!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-form">
+                <h1>contact us</h1>
+            <form>
+                <input type="text" placeholder="Enter your name" class="contact-form-txt">
+                <input type="email" placeholder="Enter your email" class="contact-form-txt">
+                <textarea placeholder="massage" class="contact-form-txtarea"></textarea>
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>&copy;copyright OILCITY 2021. All Right Reserved. Designed and Developed by OILCITY IT DEPARTMENT</p>
+            <div class="foticon">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+    </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
